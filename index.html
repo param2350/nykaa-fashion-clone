@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="nav">
+    <div class="logo">
+      <img src="./img/logo.png" alt="" />
+    </div>
+
+    <div class="nav-menu">
+      <ul class="navigation-items">
+        <li class="navigation-item">WHATS'S</li>
+        <li class="navigation-item">BRANDS</li>
+        <li class="navigation-item">WESTERN WEAR</li>
+        <li class="navigation-item">INDIAN WEAR</li>
+        <li class="navigation-item">BAGS</li>
+        <li class="navigation-item">SHOES</li>
+        <li class="navigation-item">JWELLERY</li>
+        <li class="navigation-item">LINGERIE</li>
+        <li class="navigation-item">KIDS</li>
+        <li class="navigation-item">MEN</li>
+        <li class="navigation-item">ACCESSORIES</li>
+        <li class="navigation-item">LUXE</li>
+      </ul>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="hero">
+      <img src="./img/hero.gif" alt="hero gif" />
+    </div>
+
+    <br />
+  </header>
+  <br /><br /><br /><br />
+  <main>
+    <section class="collections">
+      <h2 class="secondary-heading">Cute Collections</h2>
+
+      <div class="cards">
+        <div class="card">
+          <div class="card_img">
+            <img src="./img/children-1.jpg" alt="" />
+          </div>
+
+          <div>
+            <h3 class="card_description">
+              comfy & cute clothes for newborns
+            </h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card_description">
+            <img src="./img/children-2.jpg" alt="" />
+          </div>
+
+          <div>
+            <h3 class="card_description">For your baby girl's every need</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card_img">
+            <img src="./img/children-3.jpg" alt="" />
+          </div>
+
+          <div>
+            <h3 class="card_description">
+              find everthing for your little boy
+            </h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card_img">
+            <img src="./img/children-4.jpg" alt="" />
+          </div>
+
+          <div>
+            <h3 class="card_description">for unlimited play</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br /><br /><br /><br />
+
+    <section id="slideshow">
+      <div class="slideshow-container">
+        <div class="slides fade">
+          <img src="./img/img-1.jpg" alt="img-1" />
+        </div>
+
+        <div class="slides fade">
+          <img src="./img/img-2.jpg" alt="img-2" />
+        </div>
+
+        <div class="slides fade">
+          <img src="./img/img-3.jpg" alt="img-3" />
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+
+      <div class="slideshow-controller">
+        <span class="square" onClick="currentSlide(1)"></span>
+        <span class="square" onClick="currentSlide(2)"></span>
+        <span class="square" onClick="currentSlide(3)"></span>
+      </div>
+    </section>
+
+    <br /><br /><br /><br />
+
+    <section class="spotlight">
+      <h2 class="spotlight_title secondary-heading">Cute spotlight</h2>
+
+      <div class="spotlight_cards">
+        <div class="spotlight_card">
+          <div class="spotlight_card_img">
+            <img src="./img/s1.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="spotlight_card">
+          <div class="spotlight_card_description">
+            <img src="./img/s2.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="spotlight_card">
+          <div class="spotlight_card_img">
+            <img src="./img/s3.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="spotlight_card">
+          <div class="spotlight_card_img">
+            <img src="./img/s4.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="spotlight_card">
+          <div class="spotlight_card_img">
+            <img src="./img/s5.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="spotlight_card">
+          <div class="spotlight_card_img">
+            <img src="./img/s6.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <br /><br /><br /><br />
+
+    <section class="categories">
+      <h2 class="secondary-heading">Top categories</h2>
+
+      <ul class="categories_list">
+        <li class="categories_list_item">
+          <span class="categories_list_item_title">Westernwear</span>
+          <span class="list-right">&#10095;</span>
+        </li>
+
+        <li class="categories_list_item">
+          <span class="categories_list_item_title">Indianwear</span>
+          <span class="list-right">&#10095;</span>
+        </li>
+
+        <li class="categories_list_item">
+          <span class="categories_list_item_title">Dresses</span>
+          <span class="list-right">&#10095;</span>
+        </li>
+
+        <li class="categories_list_item">
+          <span class="categories_list_item_title">Bags</span>
+          <span class="list-right">&#10095;</span>
+        </li>
+
+        <li class="categories_list_item">
+          <span class="categories_list_item_title">Footwear</span>
+          <span class="list-right">&#10095;</span>
+        </li>
+
+        <li class="categories_list_item">
+          <span class="categories_list_item_title">Jewellery</span>
+          <span class="list-right">&#10095;</span>
+        </li>
+
+        <li class="categories_list_item">
+          <span class="categories_list_item_title">Lingerie</span>
+          <span class="list-right">&#10095;</span>
+        </li>
+
+        <li class="categories_list_item">
+          <span class="categories_list_item_title">Sunglasses</span>
+          <span class="list-right">&#10095;</span>
+        </li>
+
+        <li class="categories_list_item">
+          <span class="categories_list_item_title">Watches</span>
+          <span class="list-right">&#10095;</span>
+        </li>
+
+        <li class="categories_list_item">
+          <span class="categories_list_item_title">Headphones</span>
+          <span class="list-right">&#10095;</span>
+        </li>
+      </ul>
+    </section>
+
+    <br /><br /><br /><br />
+
+    <section class="deal">
+      <h2 class="secondary-heading">Deal Of The Day</h2>
+
+      <div class="deal_box">
+        <img src="./img/d.jpg" alt="Deal of the day image" />
+      </div>
+    </section>
+
+    <section class="featured">
+      <h2 class="featured_title secondary-heading">Cute featured</h2>
+
+      <div class="cards">
+        <div class="card">
+          <div class="card_img">
+            <img src="./img/f1.jpg" alt="" />
+          </div>
+
+          <div>
+            <h3 class="card_description">Printed ethinic pieces</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card_description">
+            <img src="./img/f2.jpg" alt="" />
+          </div>
+
+          <div>
+            <h3 class="card_description">Casual and formal footwear</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card_img">
+            <img src="./img/f3.jpg" alt="" />
+          </div>
+
+          <div>
+            <h3 class="card_description">Must have modern silhouettes</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card_img">
+            <img src="./img/f4.jpg" alt="" />
+          </div>
+
+          <div>
+            <h3 class="card_description">handcrafted</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="Products_types">
+
+      <div class="product_type">
+        <h2 class="protuct_title secondary-heading">Finishing Touches</h2>
+
+        <div class="cards2">
+          <div class="card2">
+            <div class="card2_img">
+              <img src="./img/b1.jpg" alt="" />
+            </div>
+
+            <div>
+            </div>
+          </div>
+
+
+
+
+          <div class="card2">
+            <div class="card2_img">
+              <img src="./img/b2.jpg" alt="" />
+            </div>
+
+            <div>
+            </div>
+          </div>
+
+
+
+          <div class="card2">
+            <div class="card2_img">
+              <img src="./img/b3.jpg" alt="" />
+            </div>
+
+            <div>
+            </div>
+          </div>
+
+
+
+
+          <div class="card2">
+            <div class="card2_img">
+              <img src="./img/b4.jpg" alt="" />
+            </div>
+
+            <div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="products_more">
+          <p><span class="products_more_text">View All Bags</span> <span class="products_more_arrow">&#10095;</span></p>
+        </div>
+
+      </div>
+
+      <div class="product_type">
+        <h2 class="protuct_title secondary-heading">Intimate Affairs</h2>
+
+        <div class="cards2">
+          <div class="card2">
+            <div class="card2_img">
+              <img src="./img/i1.jpg" alt="" />
+            </div>
+
+            <div>
+            </div>
+          </div>
+
+
+
+
+          <div class="card2">
+            <div class="card2_img">
+              <img src="./img/i2.jpg" alt="" />
+            </div>
+
+            <div>
+            </div>
+          </div>
+
+
+
+          <div class="card2">
+            <div class="card2_img">
+              <img src="./img/i3.jpg" alt="" />
+            </div>
+
+            <div>
+            </div>
+          </div>
+
+
+
+
+          <div class="card2">
+            <div class="card2_img">
+              <img src="./img/i4.jpg" alt="" />
+            </div>
+
+            <div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="products_more">
+          <p><span class="products_more_text">View All Lingerie</span> <span class="products_more_arrow">&#10095;</span></p>
+        </div>
+
+      </div>
+
+
+      <div class="product_type">
+        <h2 class="protuct_title secondary-heading">Accessorize</h2>
+
+        <div class="cards2">
+          <div class="card2">
+            <div class="card2_img">
+              <img src="./img/a1.jpg" alt="" />
+            </div>
+
+            <div>
+            </div>
+          </div>
+
+
+
+
+          <div class="card2">
+            <div class="card2_img">
+              <img src="./img/a2.jpg" alt="" />
+            </div>
+
+            <div>
+            </div>
+          </div>
+
+
+
+          <div class="card2">
+            <div class="card2_img">
+              <img src="./img/a3.jpg" alt="" />
+            </div>
+
+            <div>
+            </div>
+          </div>
+
+
+
+
+          <div class="card2">
+            <div class="card2_img">
+              <img src="./img/a4.jpg" alt="" />
+            </div>
+
+            <div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="products_more">
+          <p><span class="products_more_text">View All Jewellery</span> <span class="products_more_arrow">&#10095;</span></p>
+        </div>
+
+      </div>
+
+
+      <div class="product_type">
+        <h2 class="protuct_title secondary-heading">Step In Style</h2>
+
+        <div class="cards2">
+          <div class="card2">
+            <div class="card2_img">
+              <img src="./img/h1.jpg" alt="" />
+            </div>
+
+            <div>
+            </div>
+          </div>
+
+
+
+
+          <div class="card2">
+            <div class="card2_img">
+              <img src="./img/h2.jpg" alt="" />
+            </div>
+
+            <div>
+            </div>
+          </div>
+
+
+
+          <div class="card2">
+            <div class="card2_img">
+              <img src="./img/h3.jpg" alt="" />
+            </div>
+
+            <div>
+            </div>
+          </div>
+
+
+
+
+          <div class="card2">
+            <div class="card2_img">
+              <img src="./img/h4.jpg" alt="" />
+            </div>
+
+            <div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="products_more">
+          <p><span class="products_more_text">View All Footwear</span> <span class="products_more_arrow">&#10095;</span></p>
+        </div>
+
+      </div>
+
+
+
+    </section>
+
+    <div class="quote">
+      <img src="./img/q.jpg" alt="">
+    </div>
+
+    <section class="details">
+      <div class="detail">
+        <p class="detail_title">
+          NYKAA FASHION- YOUR PERFECT STYLING PARTNER
+        </p>
+        <p class="detail_description">
+          Nykaa Fashion is the place where you can find the best of designer
+          clothes for women, accessories, footwear, bags and so on. If you
+          want to experience the best of women’s wear online, Nykaa Fashion is
+          just the right place. We at Nykaa Fashion have the best variety of
+          the latest designs and styles of women’s clothing, bags, jewellery
+          and many others amongst all other women’s clothing stores. Whether
+          it is a wedding, a cocktail party, an engagement party, a festive
+          occasion, a formal meeting, a job interview, a college freshers
+          party or a social gathering, Nykaa Fashion online store has a
+          comprehensive collection of the best women’s apparels and other
+          essential ladies wear that are a perfect fit for every occasion. Be
+          it a festive women’s wear collection or everyday use ladies wear, we
+          have a perfect match for all your clothes related queries From tip
+          to toe , Nykaa fashion has an extensive range of ladies clothes as
+          well as accessories to complete your looks. Thus, if you are looking
+          for women’s clothing, ladies wear or women’s wear online, look no
+          further as Nykaa Fashion has got your back. Our online store
+          features an expansive range of women’s fashionwear, Indian wear,
+          bags, footwear, lingerie and accessories from esteemed designers and
+          brands like Masaba, Label Ritu Kumar, Payal Singhal, Lino Perros,
+          AM:PM and many others. Being host to a wide range of designs and
+          styles from premium designers and brands, Nykaa Fashion is simply
+          your perfect style guide as it aims to serve all your shopping
+          requirements from the comfort of your home. Also, we at Nykaa
+          Fashion have a section named “Style Files” where you can discover
+          the latest trends in women’s fashion and styling ideas to stay in
+          vogue. Thus, if you are looking for women’s fashion wear, ladies
+          fashion wear or fashion clothes for girls, you will be spoiled for
+          choice as Nykaa Fashion has got it all!
+        </p>
+      </div>
+
+      <div class="detail">
+        <p class="detail_title">
+          DESIGNER WOMEN’S CLOTHES AVAILABLE AT NYKAA FASHION
+        </p>
+        <p class="detail_description">
+          Nykaa Fashion has a wide array of designer apparels online. You can
+          purchase designer women’s clothes from our online store that can be
+          delivered to you right at your doorstep. We have a curated
+          collection of Indian wear, western wear, Indo-western wear and many
+          other styles from premium designers and brands. We have Indian
+          designer clothes collections from brands like Geroo Jaipur, Global
+          Desi, Label Ritu Kumar, Masaba, Desi Weavess and these Indian wear
+          promises the ethnic vibe for any occasion. We have an amazing
+          collection of western wear from brands like Twenty Dresses, Vero
+          Moda and many more. At Nykaa Fashion, one can always find the
+          essentials of designer women’s clothes to grace your wardrobe with.
+          You can also explore our jewellery collection where we have
+          jewellery pieces from brands like Tribe by Amrapali, Sia and bags by
+          Lavie, Hidesign, Caprese, Daily Objects and many more. We also have
+          a luxe section whereby we feature luxury collections of esteemed
+          designers like Payal Pratap, Varun Bahl, Masaba and Payal Singhal.
+          Thus, if you are planning to buy ladies designer clothes, Indian
+          designer clothes, designer apparels for weddings, festive
+          celebrations or any occasion, Nykaa Fashion has got abundant
+          varieties of designer clothing as per your preference.
+        </p>
+      </div>
+
+      <div class="detail">
+        <p class="detail_title">
+          NYKAA FASHION- A ONE-STOP DESTINATION FOR DESIGNER WOMEN’S CLOTHING
+          ONLINE
+        </p>
+        <p class="detail_description">
+          Nykaa Fashion is the perfect place to be as we have covered every
+          single requirement. Whether you are looking for a specific
+          silhouette, a specific sleeve type or a specific style or colour, we
+          at Nykaa Fashion have got every need covered. We have an amazing
+          collection of the latest designer Indian wear like banarasi kurtis,
+          gota patti kurtis, lehenga sets, kurti sets, sarees, chikankari
+          kurtis, anarkali kurtis, angrakha kurtis, layered kurtis and many
+          others. With respect to western wear, we have an extensive
+          collection of jumpsuits, skirts, dresses, tops and many others
+          featuring the latest trends and styles. Enhance the online shopping
+          of women’s clothing experience as we at Nykaa Fashion have the best
+          women’s clothing online. Whether you want to buy women’s clothes
+          online or buy ladies clothes online, Nykaa Fashion online store is
+          just the right destination. You can browse through our latest
+          collections, the top categories, the best sellers and what has been
+          trending on our website. You can also explore our designer women’s
+          clothing online which has numerous categories and styles. Also buy
+          ladies clothes online from our sale section at Nykaa Fashion at
+          affordable prices. Nykaa Fashion has got a tremendous collection of
+          premium designer wear featuring varied colours, designs and styles
+          because of which designer online shopping for women’s clothing has
+          got easier than ever before. Thus, Nykaa Fashion endeavours to be a
+          one-stop destination to serve all your shopping requirements.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="contact_us">
+      <div class="contact_us_lists">
+        <ul class="contact_us_list">
+          <li class="contact_us_list_item contact_us_list_heading">
+            Download our app
+          </li>
+          <li class="contact_us_list_item">
+            <img src="./img/play.png" alt="playstore" />
+            <img src="./img/app.png" alt="appstore" />
+          </li>
+        </ul>
+
+        <ul class="contact_us_list">
+          <li class="contact_us_list_item contact_us_list_heading">
+            Subscribe to newsletter
+          </li>
+          <li class="contact_us_list_item">
+            <form action="#" class="contact-form">
+              <input type="text" placeholder="enter your email" class="form-email" />
+              <button class="form-submit">SUBMIT</button>
+            </form>
+          </li>
+        </ul>
+
+        <ul class="contact_us_list">
+          <li class="contact_us_list_item contact_us_list_heading">
+            FOR QUERIES
+          </li>
+          <li class="contact_us_list_item">
+            1800 1233 69522 | support@nykaafashion.com (Monday to Saturday,
+            10AM - 7PM)
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="about-us">
+      <div class="about_us_lists">
+        <ul class="about_us_list">
+          <li class="about_us_list_item about_us_list_item_title">
+            Who are you
+          </li>
+          <li class="about_us_list_item">About Us</li>
+          <li class="about_us_list_item">Careers</li>
+          <li class="about_us_list_item">press</li>
+        </ul>
+
+        <ul class="about_us_list">
+          <li class="about_us_list_item about_us_list_item_title">Help</li>
+          <li class="about_us_list_item">Contact Us</li>
+          <li class="about_us_list_item">Shipping & Return Policy</li>
+          <li class="about_us_list_item">Help Center</li>
+          <li class="about_us_list_item">Terms & Conditions</li>
+          <li class="about_us_list_item">Privacy Policy</li>
+          <li class="about_us_list_item">Privacy Policy for EU Residents</li>
+          <li class="about_us_list_item">Responsible Disclosure</li>
+        </ul>
+
+        <ul class="about_us_list">
+          <li class="about_us_list_item about_us_list_item_title">
+            QUICKLINKS
+          </li>
+          <li class="about_us_list_item">Offers</li>
+          <li class="about_us_list_item">Sitemap</li>
+          <li class="about_us_list_item">FOLLOW US</li>
+        </ul>
+
+        <ul class="about_us_list">
+          <li class="about_us_list_item about_us_list_item_title">
+            FOLLOW US
+          </li>
+          <li class="about_us_list_item social-icons">
+            <i class="fa fa-facebook" style="font-size: 24px; color: dodgerblue"></i>
+          </li>
+
+          <li class="about_us_list_item social-icons">
+            <i class="fa fa-instagram" style="font-size: 24px; color: #cf308e"></i>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer_categories_links">
+      <ul class="footer_categories_list">
+        <li class="footer_categories_list_item footer_categories_list_heading">
+          Indian wear
+        </li>
+        <li class="footer_categories_list_item">Blouse</li>
+        <li class="footer_categories_list_item">Salwar Suits and Sets</li>
+        <li class="footer_categories_list_item">Sarees</li>
+        <li class="footer_categories_list_item">Shawls stoles & dupattas</li>
+        <li class="footer_categories_list_item">Palazzos</li>
+        <li class="footer_categories_list_item">
+          Affordable Designer Ethnic Wear
+        </li>
+      </ul>
+
+      <ul class="footer_categories_list">
+        <li class="footer_categories_list_item footer_categories_list_heading">
+          Indian wear
+        </li>
+        <li class="footer_categories_list_item">Blouse</li>
+        <li class="footer_categories_list_item">Salwar Suits and Sets</li>
+        <li class="footer_categories_list_item">Sarees</li>
+        <li class="footer_categories_list_item">Shawls stoles & dupattas</li>
+        <li class="footer_categories_list_item">Palazzos</li>
+        <li class="footer_categories_list_item">
+          Affordable Designer Ethnic Wear
+        </li>
+      </ul>
+
+      <ul class="footer_categories_list">
+        <li class="footer_categories_list_item footer_categories_list_heading">
+          Indian wear
+        </li>
+        <li class="footer_categories_list_item">Blouse</li>
+        <li class="footer_categories_list_item">Salwar Suits and Sets</li>
+        <li class="footer_categories_list_item">Sarees</li>
+        <li class="footer_categories_list_item">Shawls stoles & dupattas</li>
+        <li class="footer_categories_list_item">Palazzos</li>
+        <li class="footer_categories_list_item">
+          Affordable Designer Ethnic Wear
+        </li>
+      </ul>
+
+      <ul class="footer_categories_list">
+        <li class="footer_categories_list_item footer_categories_list_heading">
+          Indian wear
+        </li>
+        <li class="footer_categories_list_item">Blouse</li>
+        <li class="footer_categories_list_item">Salwar Suits and Sets</li>
+        <li class="footer_categories_list_item">Sarees</li>
+        <li class="footer_categories_list_item">Shawls stoles & dupattas</li>
+        <li class="footer_categories_list_item">Palazzos</li>
+        <li class="footer_categories_list_item">
+          Affordable Designer Ethnic Wear
+        </li>
+      </ul>
+    </div>
+
+    <div class="copyright">
+      <p class="copyright_text">
+        © 2019 Nykaa Fashion Pvt. Ltd. All Rights Reserved
+      </p>
+    </div>
+  </footer>
+
+  <script src="app.js" />
+  </body>
+</html>
